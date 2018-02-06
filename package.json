@@ -1,1 +1,14 @@
-{}
+{
+    "name": "ts-inspector-demo",
+    "description": "对ts-inspector的demo，演示用",
+    "version": "0.0.1",
+    "dependencies": {
+        "pre-commit": "^1.2.2",
+        "ts-inspector": "^1.0.35",
+        "ts-node": "^4.1.0",
+        "typescript": "^2.7.1"
+    },
+    "scripts": {
+        "check": "node verify.js"
+    }
+}
