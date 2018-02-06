@@ -81,3 +81,17 @@ i.start()
     whiteList?: Array<String> // 不需要检查的文件名（可选）
 }
 ```
+
+#### 使用效果：
+
+* 检查失败的情况
+
+![avatar](https://sfault-image.b0.upaiyun.com/153/684/1536843627-5a7975937ff58_articlex)
+
+* 检查成功的情况
+
+![avatar](https://sfault-image.b0.upaiyun.com/275/312/2753127133-5a79759d798b9_articlex)
+
+#### 详细的技术细节，请参见：[使用 Typescript 检查你的代码规范][1]
+
+[1]: https://segmentfault.com/a/1190000013173370
