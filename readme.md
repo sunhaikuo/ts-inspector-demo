@@ -31,6 +31,10 @@
 + npm run check
 ```
 
+#### 关于 git 提交检查
+
+如果想增加在 git 提交之前检查代码，在`package.json`文件中增加`"pre-commit": ["check"]`，其中`check`为`script`中的命令，具体详见我的博文
+
 #### ts 文件中使用
 
 ```
